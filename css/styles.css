@@ -85,9 +85,12 @@ p {
   border-radius: 5px;
 }
 
+
+
 .portfolio-link a:hover {
   border: rgba(240, 10, 10, 0.5) solid 2px;
   opacity: 0.9;
+  color: black;
 }
 
 .portfolio-image {
