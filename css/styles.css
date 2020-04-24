@@ -13,7 +13,7 @@ a {
 header {
   height: 65px;
   width: 100%;
-  position :fixed;
+  position: fixed;
   top: 0;
   z-index: 10;
 }
@@ -153,4 +153,74 @@ header {
 .contact-button {
   text-align: center;
   padding-top: 20px;
+}
+
+
+/* footer */
+
+footer {
+  background-color: #212121;
+}
+
+.layout-footers {
+  border-top: 2px solid #e2dedf;
+  height: 500px;
+  padding-bottom: 80px;
+  text-align: center;
+  color: #e2dedf;
+}
+
+
+
+.footers {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+.footer {
+  padding-bottom: 100px;
+  padding-top: 100px;
+  flex: auto;
+  width: 25%;
+}
+
+.footer h4 {
+  color: #dc143c;
+  font-size: 20px;
+}
+
+.footer-link a {
+  display: block;
+  padding: 5px 5px;
+  color: #e2dedf;
+}
+
+.footer-social a {
+  display: block;
+  padding: 5px 5px;
+  color: #e2dedf;
+}
+
+.footer-link a:hover {
+  color: #dc143c;
+}
+
+.footer-social a:hover {
+  color: #dc143c;
+}
+
+
+.copy-right {
+  color: #e2dedf;
+}
+
+.copy-right span {
+  color: #dc143c;
+
+}
+
+.copy-right a {
+  color: #dc143c;
 }
