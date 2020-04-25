@@ -20,8 +20,9 @@ header {
 
 /* navbar */
 
-.navbar{
-font-size: 30px;
+.navbar {
+  font-size: 30px;
+  color: #dc143c;
 }
 
 .nav-title {
@@ -38,7 +39,8 @@ font-size: 30px;
 }
 
 .navbar-nav a:hover {
-  background-color: red;
+  background-color: #212121;
+  color: #fff
 }
 
 .carousel-slide {
@@ -194,9 +196,9 @@ footer {
 }
 
 .icon-footer i {
-font-size: 30px;
-padding-right: 10px;
-padding-left: 10px;
+  font-size: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .footer-title {
@@ -237,4 +239,3 @@ padding-left: 10px;
 .copy-right a {
   color: #dc143c;
 }
-

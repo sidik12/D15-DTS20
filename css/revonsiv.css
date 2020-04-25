@@ -5,8 +5,8 @@
 
     }
 
-    .navbar-collapse a {
-        color: #fff;
+    .navbar {
+        display: none;
     }
 
 
