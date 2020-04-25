@@ -1,8 +1,14 @@
 @media screen and (max-width:671px) {
-    .navbar {
-        display: none;
-        float: right;
+
+    .navbar-brand {
+        float: left;
+
     }
+
+    .navbar-collapse a {
+        color: #fff;
+    }
+
 
     .portfolio-title {
         font-size: 20px;
