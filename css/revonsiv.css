@@ -32,4 +32,17 @@
         flex: auto;
         width: 100%;
     }
+
+    .contact {
+        padding-bottom: 100px;
+        height: 400px;
+    }
+
+    .form-control {
+        margin: 0;
+    }
+
+    .layout-footers {
+        height: 600px;
+    }
 }
