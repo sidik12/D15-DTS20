@@ -180,7 +180,6 @@ footer {
 }
 
 
-
 .footers {
   display: flex;
   flex-wrap: wrap;
@@ -212,12 +211,6 @@ footer {
   color: #e2dedf;
 }
 
-.footer-social a {
-  display: block;
-  padding: 5px 5px;
-  color: #e2dedf;
-}
-
 .footer-link a:hover {
   color: #dc143c;
 }
@@ -226,16 +219,17 @@ footer {
   color: #dc143c;
 }
 
+.title-footer {
+  padding-bottom: 30px;
+}
+
 
 .copy-right {
   color: #e2dedf;
 }
 
-.copy-right span {
+
+.copy-background {
   color: #dc143c;
 
-}
-
-.copy-right a {
-  color: #dc143c;
 }
