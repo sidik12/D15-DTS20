@@ -19,8 +19,16 @@ header {
 }
 
 /* navbar */
-.nav-left {
-  margin-left: 50px;
+
+.navbar{
+font-size: 30px;
+}
+
+.nav-title {
+  color: aliceblue;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
 }
 
 .nav-left a {
@@ -29,9 +37,8 @@ header {
   font-size: 25px;
 }
 
-.nav-left a:hover {
+.navbar-nav a:hover {
   background-color: red;
-  color: white;
 }
 
 .carousel-slide {
