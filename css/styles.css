@@ -44,9 +44,14 @@ header {
   font-size: 25px;
 }
 
+
 .navbar-nav li:hover {
   background-color: #e2dedf;
-  color: #fff
+
+}
+
+.navbar-nav a:hover {
+  color: #fff;
 }
 
 .carousel-slide {
