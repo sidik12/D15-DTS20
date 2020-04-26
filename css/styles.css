@@ -10,6 +10,12 @@ a {
   font-family: "Lucida Grande";
 }
 
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 header {
   height: 65px;
   width: 100%;
@@ -20,8 +26,9 @@ header {
 
 /* navbar */
 
-.navbar{
-font-size: 30px;
+.navbar {
+  font-size: 30px;
+  color: #fff;
 }
 
 .nav-title {
@@ -38,8 +45,14 @@ font-size: 30px;
   text-decoration: none;
 }
 
+
+.navbar-nav li:hover {
+  background-color: #e2dedf;
+
+}
+
 .navbar-nav a:hover {
-  background-color: red;
+  color: #fff;
 }
 
 .carousel-slide {
@@ -179,7 +192,6 @@ footer {
 }
 
 
-
 .footers {
   display: flex;
   flex-wrap: wrap;
@@ -195,9 +207,9 @@ footer {
 }
 
 .icon-footer i {
-font-size: 30px;
-padding-right: 10px;
-padding-left: 10px;
+  font-size: 30px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 .footer-title {
@@ -211,12 +223,6 @@ padding-left: 10px;
   color: #e2dedf;
 }
 
-.footer-social a {
-  display: block;
-  padding: 5px 5px;
-  color: #e2dedf;
-}
-
 .footer-link a:hover {
   color: #dc143c;
 }
@@ -225,17 +231,17 @@ padding-left: 10px;
   color: #dc143c;
 }
 
+.title-footer {
+  padding-bottom: 30px;
+}
+
 
 .copy-right {
   color: #e2dedf;
 }
 
-.copy-right span {
+
+.copy-background {
   color: #dc143c;
 
 }
-
-.copy-right a {
-  color: #dc143c;
-}
-
