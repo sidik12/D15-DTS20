@@ -45,10 +45,8 @@ header {
   text-decoration: none;
 }
 
-
 .navbar-nav li:hover {
   background-color: rgba(240, 10, 10, 0.5);
-
 }
 
 .navbar-nav a:hover {
