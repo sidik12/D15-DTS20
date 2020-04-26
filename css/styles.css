@@ -44,8 +44,8 @@ header {
   font-size: 25px;
 }
 
-.navbar-nav a:hover {
-  background-color: #212121;
+.navbar-nav li:hover {
+  background-color: #e2dedf;
   color: #fff
 }
 
