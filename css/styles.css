@@ -6,19 +6,8 @@ a {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-/* Profile */
-.profile {
-  background-color: #212121;
-  color: white;
-  /* max-width: 100%; */
-  /* height: 400px; */
-  /* padding: 21px; */
-  margin: auto;
-=======
 .content {
   font-family: "Lucida Grande";
->>>>>>> 0e37730683064a02a32c1488a6ab0d609c48f1f4
 }
 
 header {
