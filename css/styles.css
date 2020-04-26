@@ -47,7 +47,7 @@ header {
 
 
 .navbar-nav li:hover {
-  background-color: #e2dedf;
+  background-color: rgba(240, 10, 10, 0.5);
 
 }
 
@@ -104,6 +104,7 @@ header {
   color: black;
   font-size: 30px;
   opacity: 0.7;
+  
 }
 
 .portfolio-link a {
@@ -120,7 +121,8 @@ header {
 .portfolio-link a:hover {
   border: rgba(240, 10, 10, 0.5) solid 2px;
   opacity: 0.9;
-  color: black;
+  color: white;
+  background-color: rgba(240, 10, 10, 0.5);
 }
 
 .portfolio-image {
